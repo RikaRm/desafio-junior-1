@@ -11,20 +11,12 @@ module.exports = {
         primaryKey: true
       },
       nome:{
-        type:Sequelize.UUID,
+        type:Sequelize.STRING,
         allowNull:false,
       },
       idade:{
-        type:Sequelize.INTEGER,
+        type:Sequelize.DATE,
         allowNull:false,
-      },
-      tipo:{
-        type:Sequelize.UUID,
-        allowNull:false,
-        references: {
-          model: 'pet_types',
-          key: 'id'
-        }
       },
       raca:{
         type: Sequelize.UUID,
