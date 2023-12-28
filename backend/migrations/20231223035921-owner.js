@@ -11,7 +11,7 @@ module.exports = {
         primaryKey: true
       },
       nome: {
-        type: Sequelize.UUID,
+        type: Sequelize.STRING,
         allowNull: false,
       },
       telefone: {
