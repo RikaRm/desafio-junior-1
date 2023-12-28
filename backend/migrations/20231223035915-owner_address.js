@@ -18,6 +18,8 @@ module.exports = {
       rua: Sequelize.STRING,
       casa: Sequelize.STRING,
       complemento: Sequelize.STRING,
+      estado:Sequelize.STRING,
+      cidade:Sequelize.STRING,
       createdAt: Sequelize.DATE,
       updatedAt: Sequelize.DATE
     })
