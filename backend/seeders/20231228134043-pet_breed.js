@@ -12,7 +12,7 @@ module.exports = {
       await queryInterface.bulkInsert('pet_breeds', [{
         id: v4(),
         raca: "Pastor Alemão",
-        type: type_id,
+        tipo: type_id,
         createdAt: new Date(),
         updatedAt: new Date()
       }], {});
